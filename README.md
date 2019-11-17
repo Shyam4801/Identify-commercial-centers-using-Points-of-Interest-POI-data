@@ -71,4 +71,4 @@ Navigate to the directory containing Chennai-commercial-centres.ipynb python not
 
 GO FURTHER :
 
-The method can be extended to use road network to measure the sphere of influence of these amenities using Kernel density estimation taking into account the network data to find much more significant clusters among these 
+The method can be extended to use road network to measure the sphere of influence of these amenities using Kernel density estimation taking into account the road network data to give weightage to more accessible amenities thereby finding more significant clusters  
