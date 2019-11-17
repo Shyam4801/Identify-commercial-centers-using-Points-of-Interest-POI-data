@@ -44,7 +44,8 @@ Having used it we get a couple of clusters with min cluster size set to 2 and ep
 On the other hand , HDBScan has the parameter minimum cluster size (10), which is how big a cluster needs to be in order to form. This is more intuitive than epsilon because we can probably how many shops or commercial establishments the clusters need to have rather than defining the radius to make actionable decisions on them.
 
 Clusters are more reasonable
-![alt text](http://url/to/img.png)
+
+![alt text](https://github.com/Shyam4801/Identify-commercial-centers-using-Points-of-Interest-POI-data/blob/master/download%20(1).png)
 
 
 SIGNIFICANCE OF CLUSTERS:
@@ -52,6 +53,10 @@ SIGNIFICANCE OF CLUSTERS:
 We can aim at estimating the continuous observed probability distribution. The most commonly used method to do this is the so called kernel density estimate (KDE). The idea behind KDEs is to count the number of points in a continious way. Instead of using discrete counting, where you include a point in the count if it is inside a certain boundary and ignore it otherwise, KDEs use functions (kernels) that include points but give different weights to each one depending of how far of the location where we are counting the point is.
 
 The isoclines represent probability of the establishments appearing in those regions are similar and the brighter region denotes the areas with higher probability and the clusters in the central part of chennai seems to have a higher probability of finding commercial establishments 
+
+![alt text](https://github.com/Shyam4801/Identify-commercial-centers-using-Points-of-Interest-POI-data/blob/master/download%20(2).png)
+
+
 DATA VISUALIZATION:
 
 Usual Matplotlib , seaborn are used to visualize clusters , to truly test out our results interactive mapping library called Folium is used to create actual OSM maps which does not involve any API calls hence its faster and more interactive 
