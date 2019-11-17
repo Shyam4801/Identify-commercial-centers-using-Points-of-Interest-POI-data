@@ -56,6 +56,7 @@ The isoclines represent probability of the establishments appearing in those reg
 
 ![alt text](https://github.com/Shyam4801/Identify-commercial-centers-using-Points-of-Interest-POI-data/blob/master/download%20(2).png)
 
+The actual locations can be analysed using the poly_heatmap.html file generated using Folium 
 
 DATA VISUALIZATION:
 
