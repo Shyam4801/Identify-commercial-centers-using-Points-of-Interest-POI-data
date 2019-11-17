@@ -44,6 +44,8 @@ Having used it we get a couple of clusters with min cluster size set to 2 and ep
 On the other hand , HDBScan has the parameter minimum cluster size (10), which is how big a cluster needs to be in order to form. This is more intuitive than epsilon because we can probably how many shops or commercial establishments the clusters need to have rather than defining the radius to make actionable decisions on them.
 
 Clusters are more reasonable
+![alt text](http://url/to/img.png)
+
 
 SIGNIFICANCE OF CLUSTERS:
 
@@ -53,6 +55,14 @@ The isoclines represent probability of the establishments appearing in those reg
 DATA VISUALIZATION:
 
 Usual Matplotlib , seaborn are used to visualize clusters , to truly test out our results interactive mapping library called Folium is used to create actual OSM maps which does not involve any API calls hence its faster and more interactive 
+
+RUNNING THE PROJECT:
+
+Clone this repository by typing following command on the terminal: git clone https://github.com/Shyam4801/Identify-commercial-centers-using-Points-of-Interest-POI-data.git
+
+Run: pip install requirements.txt to install all the required dependencies.
+
+Navigate to the directory containing Chennai-commercial-centres.ipynb python notebook and run: jupyter notebook to open the analysis file.
 
 GO FURTHER :
 
