@@ -34,7 +34,7 @@ dbf — dBASE Table file : a constrained form of DBF that contains feature attri
 METHODOLOGY:
 
 To find the commercial centres we need information about the amenities in the city of Chennai 
-We have to cluster these amneties to find segments of the city , K-means is the popular clustering algorithm but K-means is not the ideal data for Coordinates data because it minimizes variances and not the Geodetic distance 
+We have to cluster these amenities to find segments of the city , K-means is the popular clustering algorithm but K-means is not the ideal data for Coordinates data because it minimizes variances and not the Geodetic distance 
 
 There is considerable amount of distortion with the latitudes that are far away from the equator 
 Instead, let’s use an algorithm that works better with arbitrary distances: scikit-learn’s implementation of the DBSCAN algorithm. DBSCAN clusters a spatial data set based on two parameters: a physical distance from each point, and a minimum cluster size. This method works much better for spatial latitude-longitude data.
@@ -50,7 +50,7 @@ Clusters are more reasonable
 
 SIGNIFICANCE OF CLUSTERS:
 
-We can aim at estimating the continuous observed probability distribution. The most commonly used method to do this is the so called kernel density estimate (KDE). The idea behind KDEs is to count the number of points in a continious way. Instead of using discrete counting, where you include a point in the count if it is inside a certain boundary and ignore it otherwise, KDEs use functions (kernels) that include points but give different weights to each one depending of how far of the location where we are counting the point is.
+We can aim at estimating the continuous observed probability distribution. The most commonly used method to do this is the so called kernel density estimate (KDE). The idea behind KDEs is to count the number of points in a continuous way. Instead of using discrete counting, where you include a point in the count if it is inside a certain boundary and ignore it otherwise, KDEs use functions (kernels) that include points but give different weights to each one depending of how far of the location where we are counting the point is.
 
 The isoclines represent probability of the establishments appearing in those regions are similar and the brighter region denotes the areas with higher probability and the clusters in the central part of chennai seems to have a higher probability of finding commercial establishments 
 
